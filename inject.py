@@ -52,7 +52,7 @@ def main():
     instruction = "Represent the document for retrieval; Input: " # same as in the paper
     
     instructor_embeddings = HuggingFaceInstructEmbeddings(model_name="hkunlp/instructor-xl", 
-                                                      model_kwargs={"device": "cuda"},
+                                                      model_kwargs={"device": "cpu"},
                                                       embed_instruction=instruction)
     
     # Create and store locally vectorstore
