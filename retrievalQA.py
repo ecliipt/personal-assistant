@@ -4,7 +4,8 @@ from pa.llm.langchain import LangchainLlamaLLM
 
 
 # Parameters
-model_path="models/manticore-13b/Manticore-13B.ggmlv3.q5_1.bin"
+model_path="models/manticore-13b/Manticore-13B.ggmlv2.q5_1.bin"
+#Manticore-13B.ggmlv3.q5_1.bin
 max_tokens=1024
 temperature_retriever=0.2
 temperature_reviewer=0.2
